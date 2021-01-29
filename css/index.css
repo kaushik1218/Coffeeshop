@@ -1,0 +1,134 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(31, 31, 31);
+    /* overflow: hidden; */
+}
+
+/* Nav Bar */
+#nav{
+    bottom: 50px;
+    position: fixed;
+    font-family: 'FuturaPTBold-Reg', sans-serif;
+    font-weight: bold;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    /* font-size: 25px; */
+    margin: 0px 40px;
+    display: block;
+}
+
+/* Intro */
+
+#intro {
+    background-image: url('../img/home/intro.jpg');
+    background-size: cover;
+    color: white;
+    height: 100%;
+}
+
+#intro-content{
+    /* background-color:rgba(0, 0, 0, 0.4); */
+    padding-top: 14%;
+}
+
+#logo{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+/* Menu */
+#menu{
+    background-image: url('../img/home/menu-bg.jpg');
+    background-size: cover;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    padding: 25px 85px 80px;
+}
+
+#menu-card{
+    background-color: rgb(31, 31, 31, 0.7);
+    height: 80%;
+    min-height: fit-content;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    /* padding: 0 60px 70px; */
+}
+
+#menu h1{
+    color: #e6e6e6;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin: 5px;
+}
+
+.coffee{
+    padding: 5px 5px 20px;
+    display: inline-block;
+    min-width: fit-content;
+}
+
+.coffee img{
+    /* width: 95%; */
+    height: auto;
+}
+
+.coffee p{
+    margin: 5px;
+}
+
+
+
+
+
+
+
+/* Testimonial Slides */
+
+#testimonial-slides{
+    background-image: url('../img/home/review-bg.jpg');
+    background-size: cover;
+    height: fit-content;
+    min-height: 100%;
+    padding: 120px 50px;
+    text-align: center;
+    color: white;
+}
+
+#slides{
+    height: fit-content;
+    max-height: fit-content;
+    background-color: rgb(31, 31, 31, 0.7);
+    padding: 20px;
+}
+
+#slides:focus{
+    border: none;
+}
+
+.review{
+    width: 100%;
+    /* font-size: 32px; */
+}
+
+.customer{
+    /* font-size: 40px; */
+    font-weight: bold;
+    margin: 10px 0;
+}

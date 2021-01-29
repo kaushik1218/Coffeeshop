@@ -1,0 +1,176 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+
+<body>
+
+    <div id="order">
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+        </form>
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Espresso</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$4.15/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Traditional Drip</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$6.35/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Cappuccino</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$4.95/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Latte</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$3.65/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Frappe</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$4.25/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Mocha</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$3.45/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Protein Shake</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$6.45/Cup</h3>
+            </div>
+        </div>
+
+        <div class="coffee row">
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="coffees">Coffee:</label>
+                <h3>Smoothy</h3>
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="Quantity">Quantity:</label>
+                <input type="number" name="quantity" class="quantity" value="0" min="0">
+            </div>
+
+            <div class="pairs col-lg-4 col-md-12">
+                <label for="price">Price:</label>
+                <h3>$4.15/Cup</h3>
+            </div>
+        </div>
+
+        <div id="confirm row">
+            <button type="submit" onclick="goBack()" class="btn col-lg-4 col-md-12" id="back-btn">Back</button>
+            <button type="submit" class="btn col-lg-4 col-md-12" id="confirm-btn">Confirm</button>
+
+            <div id="total-price" class="col-lg-4 col-md-12">
+                <label for="total-price">Total Price:</label>
+                <h3 id="total">$00.00</h3>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+        integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <script src="./js/order.js"></script>
+</body>
+
+</html>

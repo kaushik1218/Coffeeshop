@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(31, 31, 31);
+    /* background-image: url('../img/order-bg.jpeg'); */
+    background-size: cover;
+    margin: 12px 85px 85px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+#order{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3%;
+    height: fit-content;
+    min-width: fit-content;
+}
+
+.coffee{
+    display: flex;
+}
+
+h3, input, label, button{
+    font-size: 1.5em;
+    background-color: inherit;
+    color: white;
+    border: none;
+    height: 33px;
+    width: 191px;
+    margin: 10px;
+    align-self: baseline;
+    font-family: 'Dancing Script', cursive;
+}
+
+input{
+    border-bottom: 1px white solid;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label{
+    font-weight: bold;
+    text-align: end;
+}
+
+#confirm{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+  
+}
+
+#total-price{
+    display: inline-flex;
+}
+
+#total-price label, #total-price h3{
+    font-size: 30px;
+}
+
+#confirm button{
+    border: 1px white solid;
+    color: white;
+    margin-left: 135px;
+    height: 40px;
+}
+
+#back{
+    color: white;
+    text-decoration: none;
+}
+
+#confirm button:focus{
+    outline: none;
+}
+
+#confirm button:hover{
+    cursor: pointer;
+}
+
+.pairs{
+    display: inherit;
+}
+
+.btn{
+    border: 1px solid white;
+    width: 12%;
+    min-width: fit-content;
+    margin: auto 10.5%;
+    color: white;
+}

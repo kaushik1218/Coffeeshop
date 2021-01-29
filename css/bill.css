@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    background-color: #0f0f0f;
+    overflow-x: hidden;
+}
+
+.dbba{
+    /* width: 44%; */
+    padding: 60px 48px 23px;
+    /* height: 100%; */
+}
+
+.inner-dbba{
+    /* width: 65%; */
+    padding: 23px;
+    height: 100%;
+}
+
+#left{
+    background-color: #0f0f0f;
+    float: left;
+}
+
+#right{
+    background-color: #e3e3e3;
+    float: right;
+}
+
+#inner-left{
+    background-color: #e3e3e3;
+    float: right;
+    text-align: center;
+}
+
+#inner-right{
+    background-color: #0f0f0f;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #e3e3e3;
+    font-size: 25px;
+}
+
+#inner-right h1{
+    /* font-size: 45px; */
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    text-align: justify;
+}
+
+li{
+    display: flex;
+    /* width: 100%; */
+}
+
+li p{
+    margin: 1px 4%;
+}
+
+#inner-right h3, #inner-right h4{
+    margin: 5px;
+}
+
+.coffee{
+    margin: 0 0 0 7%;
+    width: 152px;
+}
+
+.quantity{
+    margin: 0 5% 0 0;
+    width: 38px;
+}
+
+button{
+    font-size: 50px;
+    background-color: inherit;
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+.row{
+    display: block;
+}
+
+hr{
+    border: 1px solid white;
+    margin: 5px;
+}
